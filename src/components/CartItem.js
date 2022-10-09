@@ -9,6 +9,11 @@ const CartItem = ({id, title, type, price, count, imageUrl}) => {
             id
         }))
     }
+    const onClickMinus = () => {
+        dispatch(addItem({
+            id
+        }))
+    }
 
     return (
         <div className="cart__item">
