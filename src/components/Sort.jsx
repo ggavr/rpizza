@@ -1,4 +1,4 @@
-import React, {useState, useRef } from 'react'
+import React, {useState, useRef} from 'react'
 
 import { useSelector, useDispatch} from 'react-redux'
 import { setSort } from '../redux/slices/filterSlice'
